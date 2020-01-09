@@ -1,7 +1,9 @@
+import BaseLayout from "../components/BaseLayout";
+
 const About = () => (
-    <div>
+    <BaseLayout>
         <p>This is the about page</p>
-    </div>
+    </BaseLayout>
 );
 
 export default About;

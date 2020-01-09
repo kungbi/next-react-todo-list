@@ -1,17 +1,21 @@
 import Link from 'next/link';
+import BaseLayout from '../components/BaseLayout'
+
 
 const Index = () => (
-    <div>
+    <BaseLayout>
         <h1>
-            Hello, World!
+            Next.js Main Page.
         </h1>
 
         <Link href='/about'>
-          <a>About</a>
+            <a>Link API - About</a>
         </Link>
 
-        <a href='/about'>About</a>
-    </div>
+        <br/>
+
+        <a href='/about'>A tag - About</a>
+    </BaseLayout>
 );
 
 export default Index;
